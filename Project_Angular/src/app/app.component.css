@@ -12,5 +12,6 @@
   }
 
 .content {
-    position: relative;
+    display: block;
+    margin-top: 400px;
 }
