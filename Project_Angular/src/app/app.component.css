@@ -1,16 +1,15 @@
 
 .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-  }
-
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;;
+  height: 100%;
+  display: block;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
 .content {
     display: block;
     margin-top: 400px;

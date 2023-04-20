@@ -8,6 +8,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { FormsModule } from '@angular/forms';
 import { AdministratorComponent } from './administrator/administrator.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes:Routes=[
 
@@ -29,7 +30,8 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes) // Sirve para enrutar las paginas
+    RouterModule.forRoot(appRoutes),
+    BrowserAnimationsModule // Sirve para enrutar las paginas
   ],
   providers: [],
   bootstrap: [AppComponent]

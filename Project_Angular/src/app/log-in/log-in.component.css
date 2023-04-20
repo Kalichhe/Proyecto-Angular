@@ -1,37 +1,228 @@
-
-.toolbar nav a {
-    position:absolute;
-    top: 0px;
-    /*left: calc(95%);*/
-    right: calc(1%);
-    color: white;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-}
-
+/*
 .toolbar {
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
-    right: 0;
-    height: 400px;
-    width: 100%;
-    display: flex;
+    right: 0;;
+    height: 100%;
+    display: block;
     align-items: center;
     color: white;
     font-weight: 600;
 }
 
-.title {
-    display: flex;
-    margin-top: 400px;
-    margin-left: calc(20%);
+.toolbar nav a{
+    max-block-size: 100%;
+    position: absolute;
+    margin-top: 1%;
+    top: 5px;
+    right: calc(1%);
+    color: white;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+h1 {
+    position:absolute;
+    margin-top: 22%;
+    margin-left: 24.3%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
 }
 
 .content {
     display: flex;
-    margin-top: 100px;
-    margin-left: 20%;
+}
+
+/* Pertenencen tambien al content
+input[name="email"] {
+    position: absolute;
+    padding: 10px;
+    margin-top: 26%;
+    margin-left: 24.6%;
+    margin-bottom: 10%;
+    width:50%;
+    font-size: 25px;
+
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: 	#FCDA00;
+}
+
+input[name="password"] {
+    position: absolute;
+    padding: 10px;
+    width: 50%;
+    margin-top: 31%;
+    margin-left: 24.6%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 0px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: 	#FCDA00;
+}
+
+button[name="send"] {
+    position: absolute;
+    margin-top: 36%;
+    width: 45%;
+    margin-left: 28%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    background-color: 	#FCDA00;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: 	#FCDA00;
+}
+
+
+
+.content div a  {
+    text-decoration: none;
+}
+
+.content div p {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.content div p a {
+    font-weight: bold;
+    color: black;
+}
+.hola{
+
+}*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+
+.toolbar img {
+    width: 100%;
+    height: 400px;
+}
+
+.toolbar nav a {
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    right: calc(1%);
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.login h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+    border-color: #FCDA00;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button[type="submit"] {
+    margin-left: 3%;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: white;
+}
+
+button[type="submit"] {
+    background-color: #FCDA00;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-up p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+    .toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px 10px;
+    }
+
+    .toolbar img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form {
+        padding: 0 20px;
+    }
 }
