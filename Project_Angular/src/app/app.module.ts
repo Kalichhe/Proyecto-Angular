@@ -16,6 +16,7 @@ const appRoutes:Routes=[
   {path:"", component:LogInComponent},
   {path:"sign-up", component:SignUpComponent},
   {path:"terms-and-conditions", component:TermsAndConditionsComponent},
+  {path:"log-in-administrator", component:LogInAdminComponent},
   {path:"administrator", component:AdministratorComponent},
 
 ];
