@@ -1,115 +1,3 @@
-/*
-.toolbar {
-    position:absolute;
-    top: 0;
-    left: 0;
-    right: 0;;
-    height: 100%;
-    display: block;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-}
-
-.toolbar nav a{
-    max-block-size: 100%;
-    position: absolute;
-    margin-top: 1%;
-    top: 5px;
-    right: calc(1%);
-    color: white;
-    font-size: 3em;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-}
-
-h1 {
-    position:absolute;
-    margin-top: 22%;
-    margin-left: 24.3%;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-}
-
-.content {
-    display: flex;
-}
-
-/* Pertenencen tambien al content
-input[name="email"] {
-    position: absolute;
-    padding: 10px;
-    margin-top: 26%;
-    margin-left: 24.6%;
-    margin-bottom: 10%;
-    width:50%;
-    font-size: 25px;
-
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
-    border-style:solid;
-    border-width: 10px;
-    border-color: 	#FCDA00;
-}
-
-input[name="password"] {
-    position: absolute;
-    padding: 10px;
-    width: 50%;
-    margin-top: 31%;
-    margin-left: 24.6%;
-    margin-bottom: 10%;
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    border-top: 0px;
-    border-radius: 10px;
-    border-style:solid;
-    border-width: 10px;
-    border-color: 	#FCDA00;
-}
-
-button[name="send"] {
-    position: absolute;
-    margin-top: 36%;
-    width: 45%;
-    margin-left: 28%;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-    border-radius: 10px;
-    background-color: 	#FCDA00;
-    border-radius: 10px;
-    border-style:solid;
-    border-width: 10px;
-    border-color: 	#FCDA00;
-}
-
-
-
-.content div a  {
-    text-decoration: none;
-}
-
-.content div p {
-    position: absolute;
-    margin-top: 40%;
-    margin-left: 40%;
-    font-size: 20px;
-}
-
-.content div p a {
-    font-weight: bold;
-    color: black;
-}
-.hola{
-
-}*/
-
 
 body {
     margin: 0;
@@ -133,7 +21,7 @@ body {
 
 .toolbar img {
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 
 .toolbar nav a {
@@ -177,7 +65,7 @@ button[type="submit"] {
     padding: 10px;
     margin: 10px 0;
     font-size: 20px;
-    width: 100%;
+    width: 91%;
     font-family: 'Courier New', Courier, monospace;
 }
 

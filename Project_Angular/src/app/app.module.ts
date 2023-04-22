@@ -9,6 +9,7 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 import { FormsModule } from '@angular/forms';
 import { AdministratorComponent } from './administrator/administrator.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LogInAdminComponent } from './log-in-admin/log-in-admin.component';
 
 const appRoutes:Routes=[
 
@@ -25,7 +26,8 @@ const appRoutes:Routes=[
     LogInComponent,
     SignUpComponent,
     TermsAndConditionsComponent,
-    AdministratorComponent
+    AdministratorComponent,
+    LogInAdminComponent
   ],
   imports: [
     BrowserModule,
