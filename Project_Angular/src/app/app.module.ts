@@ -11,6 +11,7 @@ import { AdministratorComponent } from './administrator/administrator.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LogInAdminComponent } from './log-in-admin/log-in-admin.component';
 
+
 const appRoutes:Routes=[
 
   {path:"", component:LogInComponent},
@@ -28,13 +29,13 @@ const appRoutes:Routes=[
     SignUpComponent,
     TermsAndConditionsComponent,
     AdministratorComponent,
-    LogInAdminComponent
+    LogInAdminComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
-    BrowserAnimationsModule // Sirve para enrutar las paginas
+    BrowserAnimationsModule, // Sirve para enrutar las paginas
   ],
   providers: [],
   bootstrap: [AppComponent]

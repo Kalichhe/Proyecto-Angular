@@ -23,3 +23,89 @@ body {
     width: 100%;
     height: 300px;
 }
+
+.back a {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.register {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="name"],
+input[type="last_name"],
+input[type="phone"],
+input[type="identification_document"],
+input[type="email"],
+input[type="city"],
+input[type="neighborhood"],
+input[type="address"],
+input[type="age"],
+input[type="gender"],
+input[type="password"],
+input[type="confirm_password"],
+button[type="submit"] {
+    border-color: #FCDA00;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 92.2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button[type="submit"] {
+    margin-left: 3%;
+}
+
+input[type="name"],
+input[type="last_name"],
+input[type="phone"],
+input[type="identification_document"],
+input[type="email"],
+input[type="city"],
+input[type="neighborhood"],
+input[type="address"],
+input[type="age"],
+input[type="gender"],
+input[type="password"],
+input[type="confirm_password"] {
+    background-color: white;
+}
+
+button[type="submit"] {
+    background-color: #FCDA00;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: yellow;
+}
+

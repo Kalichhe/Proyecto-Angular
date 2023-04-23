@@ -24,3 +24,14 @@ body {
     height: 300px;
 }
 
+.back a {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
